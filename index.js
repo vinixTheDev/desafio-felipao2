@@ -26,14 +26,14 @@
 // "O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
 
 let finalPoints = pointsOfHero(60, 9)
-let finalRank = rankOfHero()
+let finalRank = rankOfHero(finalPoints)
 
 function pointsOfHero(victorys, defeats) {
     let score = victorys - defeats
     return score
 }
 
-function rankOfHero(){
+function rankOfHero(finalPoints){
     let rank
     
     if(finalPoints < 10){
