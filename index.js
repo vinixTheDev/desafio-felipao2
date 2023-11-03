@@ -60,7 +60,7 @@ function rankOfHero(){
     return rank
 }
 
-console.log(`O Herói tem de saldo de ${finalPoints} vitótias e está no nível ${finalRank}`)
+console.log(`O Herói tem de saldo ${finalPoints} vitótias e está no nível ${finalRank}.`)
 
 
 
