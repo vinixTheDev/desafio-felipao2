@@ -49,8 +49,10 @@ function rankOfHero(finalPoints){
         rank = 'Diamante'
     } else if(finalPoints >= 91 && finalPoints <= 100){
         rank = 'Lendário'
+    } else if(finalPoints > 100){
+        rank = "Imortal"
     } else {
-        rank = 'Imortal'
+        rank = 'Ghost'
     }
     return rank
 }
