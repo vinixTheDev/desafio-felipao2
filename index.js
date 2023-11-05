@@ -39,22 +39,17 @@ function rankOfHero(finalPoints){
     if(finalPoints < 10){
         rank = 'Ferro'
     }
-    if(finalPoints >= 11 && finalPoints <= 20){
+     else if(finalPoints >= 11 && finalPoints <= 20){
         rank = 'Bronze'
-    }
-    if(finalPoints >= 21 && finalPoints <= 50){
+    } else if(finalPoints >= 21 && finalPoints <= 50){
         rank = 'Prata'
-    }
-    if(finalPoints >= 51 && finalPoints <= 80){
+    } else if(finalPoints >= 51 && finalPoints <= 80){
         rank = 'Ouro'
-    }
-    if(finalPoints >= 81 && finalPoints <= 90){
+    } else if(finalPoints >= 81 && finalPoints <= 90){
         rank = 'Diamante'
-    }
-    if(finalPoints >= 91 && finalPoints <= 100){
+    } else if(finalPoints >= 91 && finalPoints <= 100){
         rank = 'Lendário'
-    }
-    if(finalPoints >= 101){
+    } else {
         rank = 'Imortal'
     }
     return rank
